@@ -29,7 +29,7 @@ Marketplace app for premium car plates in Saudi Arabia
 - Built using `Flutter`, `BLoC`, `Firebase`, `REST APIs`, `Push Notifications`, and `Deep Linking`  
 - Supports secure payments and smooth user experience
 
-#### 🏗️ Al Roqi – Real Estate Project Management  
+#### 🏗️ [Al Roqi – Real Estate Project Management](https://apps.apple.com/us/app/al-roqi/id1589667013)  
 A real estate service platform built for **Al Roqi for Management Services**, Dubai  
 - Guides clients through custom villa projects: planning → design → execution  
 - Built using `Flutter`, `Firebase Auth`, `Google Maps`, and `REST APIs`  
