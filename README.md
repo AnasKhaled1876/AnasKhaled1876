@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Anas Moustafa</h1>
-<h3 align="center">A Flutter Developer building performant apps across Cairo & Riyadh</h3>
+<h3 align="center">A Flutter Developer crafting smart, scalable apps from Cairo to Riyadh</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/anas-moustafa-b36b6a17a/" target="_blank">
@@ -15,31 +15,32 @@
 
 ---
 
-- 🔭 Currently working at **Madi Al Byanat**, Riyadh 🇸🇦  
-- 🧠 Specializing in Flutter, BLoC, Firebase, and Clean Architecture  
-- 🌍 Focused on building scalable cross-platform apps for real-world impact  
-- 💬 Reach me for collaborations on meaningful mobile products
+- 🔭 I’m currently working at **Madi Al Byanat** in Riyadh, Saudi Arabia  
+- 🧠 Focused on delivering high-performance Flutter apps with BLoC and clean architecture  
+- 🛠 Exploring AI integration, localization, and advanced animations  
+- 💬 Open to collaborations on apps that solve real-world problems
 
 ---
 
 ### 📱 Featured Projects
 
 #### 🚘 [Tamayozak](https://apps.apple.com/sa/app/tamayozak-%D8%AA%D9%85%D9%8A%D8%B2%D9%83/id6499983810)  
-Marketplace app for premium car plates in Saudi Arabia  
-- Built using `Flutter`, `BLoC`, `Firebase`, `REST APIs`, `Push Notifications`, and `Deep Linking`  
-- Supports secure payments and smooth user experience
+Mobile marketplace for premium car plate numbers in Saudi Arabia  
+- Developed end-to-end using `Flutter`, `BLoC`, `Firebase`, and `Deep Linking`  
+- Integrated secure payment systems and push notification workflows  
+- Live on [App Store](https://apps.apple.com/sa/app/tamayozak-%D8%AA%D9%85%D9%8A%D8%B2%D9%83/id6499983810) and [Google Play](https://play.google.com/store/apps/details?id=com.madi.tamayozak)
 
-#### 🏗️ [Al Roqi – Real Estate Project Management](https://apps.apple.com/us/app/al-roqi/id1589667013)  
-A real estate service platform built for **Al Roqi for Management Services**, Dubai  
-- Guides clients through custom villa projects: planning → design → execution  
-- Built using `Flutter`, `Firebase Auth`, `Google Maps`, and `REST APIs`  
-- Delivers luxury property experiences in Dubai’s elite communities
+#### 🏗️ [Al Roqi](https://apps.apple.com/us/app/al-roqi/id1589667013) – Villa Design & Customization Platform  
+A mobile platform for personalized villa planning and interior customization  
+- Empowers users to visualize, design, and configure their dream homes with curated layouts and design themes  
+- Built using `Flutter`, `Firebase`, `Google Maps`, and `RESTful APIs`  
+- Designed for clients in Dubai’s luxury real estate market  
+- Also available on [Google Play](https://play.google.com/store/apps/details?id=com.AlRoqi.tariq_al_raqi)
 
-#### 🧠 [Egypto AI (WIP)](https://github.com/AnasKhaled1876/egypto_ai)  
-AI-powered tourism assistant for Egypt 🇪🇬  
-- Uses `Flutter`, `Node.js`, `PostgreSQL`, `Prisma`, and AI APIs (DeepSeek, Gemini, Groq)  
-- Features chat history, JWT authentication, streaming AI, and media-rich search  
-- Designed to speak Egyptian Arabic & help tourists explore authentically
+#### 🧠 [Egypto AI (WIP)](https://github.com/AnasKhaled1876/egypto_ai)
+An AI-powered tourism assistant for Egypt  
+Built with `Flutter`, `Node.js`, `PostgreSQL`, `Prisma`, and streaming response AI APIs  
+Currently implementing chat memory, authentication, and multimedia search
 
 ---
 
@@ -69,9 +70,9 @@ AI-powered tourism assistant for Egypt 🇪🇬
 
 ### 📚 Education & Certifications
 
-- 🎓 B.Sc. in Computer Science – Ain Shams University (2018–2022)  
-- 📜 Agile Fundamentals, Flutter Bootcamp, Android Dev with Java
+- 🎓 B.Sc. in Computer Science – Ain Shams University  
+- ✅ Agile Fundamentals, Flutter Bootcamp, Android Dev with Java
 
 ---
 
-> *"Great software is crafted through empathy, clarity, and iteration."*
+> *"Great apps are built with clean code, strong UX, and continuous improvement."*
