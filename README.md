@@ -1,78 +1,183 @@
-<h1 align="center">Hi 👋, I'm Anas Moustafa</h1>
-<h3 align="center">A Flutter Developer crafting smart, scalable apps from Cairo to Riyadh</h3>
+<h1 align="center">Hi, I'm Anas Moustafa</h1>
+<h3 align="center">Senior Flutter Developer | Mobile Engineer | AWS Cloud & DevOps Practitioner</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/anas-moustafa-b36b6a17a/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge" />
+    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:Anas.khaled1892@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&style=for-the-badge&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/AnasKhaled1876">
-    <img src="https://img.shields.io/badge/GitHub-100000?logo=github&style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-100000?logo=github&style=for-the-badge&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
 ---
 
-- 🔭 I’m currently working at **Madi Al Byanat** in Riyadh, Saudi Arabia  
-- 🧠 Focused on delivering high-performance Flutter apps with BLoC and clean architecture  
-- 🛠 Exploring AI integration, localization, and advanced animations  
-- 💬 Open to collaborations on apps that solve real-world problems
+I build production mobile apps with Flutter and ship the cloud infrastructure behind them.
+
+- Currently working as a **Senior Flutter Developer / Software Engineer** at **Madi Al Byanat** in Riyadh, Saudi Arabia.
+- 5+ years building cross-platform iOS and Android apps with **Flutter, Dart, BLoC, Riverpod, Firebase, REST APIs, payments, deep linking, localization, and CI/CD**.
+- Hands-on with **AWS, Terraform, Docker, Linux, GitHub Actions, CloudWatch, Secrets Manager, ECS/Fargate, EC2, S3, CloudFront, Route 53, and VPC networking**.
+- Focused on clean architecture, release automation, app performance, secure deployments, and reliable production workflows.
 
 ---
 
-### 📱 Featured Projects
+## Featured Mobile Apps
 
-#### 🚘 [Tamayozak](https://apps.apple.com/sa/app/tamayozak-%D8%AA%D9%85%D9%8A%D8%B2%D9%83/id6499983810)  
-Mobile marketplace for premium car plate numbers in Saudi Arabia  
-- Developed end-to-end using `Flutter`, `BLoC`, `Firebase`, and `Deep Linking`  
-- Integrated secure payment systems and push notification workflows  
-- Live on [App Store](https://apps.apple.com/sa/app/tamayozak-%D8%AA%D9%85%D9%8A%D8%B2%D9%83/id6499983810) and [Google Play](https://play.google.com/store/apps/details?id=com.madi.tamayozak)
+### [Tamayozak](https://apps.apple.com/sa/app/tamayozak-%D8%AA%D9%85%D9%8A%D8%B2%D9%83/id6499983810)
 
-#### 🏗️ [Al Roqi](https://apps.apple.com/us/app/al-roqi/id1589667013) – Villa Design & Customization Platform  
-A mobile platform for personalized villa planning and interior customization  
-- Empowers users to visualize, design, and configure their dream homes with curated layouts and design themes  
-- Built using `Flutter`, `Firebase`, `Google Maps`, and `RESTful APIs`  
-- Designed for clients in Dubai’s luxury real estate market  
-- Also available on [Google Play](https://play.google.com/store/apps/details?id=com.AlRoqi.tariq_al_raqi)
+Saudi marketplace for premium car plate numbers, published on iOS and Android.
 
-#### 🧠 [Egypto AI (WIP)](https://github.com/AnasKhaled1876/egypto_ai)
-An AI-powered tourism assistant for Egypt  
-Built with `Flutter`, `Node.js`, `PostgreSQL`, `Prisma`, and streaming response AI APIs  
-Currently implementing chat memory, authentication, and multimedia search
+- Built with `Flutter`, `BLoC`, `Firebase`, `REST APIs`, and `Deep Linking`.
+- Integrated secure payments, push notifications, and critical release flows.
+- Validated key user journeys through unit, widget, and end-to-end testing.
+
+<p>
+  <a href="https://apps.apple.com/sa/app/tamayozak-%D8%AA%D9%85%D9%8A%D8%B2%D9%83/id6499983810">
+    <img src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="Tamayozak on App Store" />
+  </a>
+  <a href="https://play.google.com/store/apps/details?id=com.madi.tamayozak">
+    <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Tamayozak on Google Play" />
+  </a>
+</p>
+
+### [Al Roqi](https://apps.apple.com/us/app/al-roqi/id1589667013)
+
+Villa design and customization platform for Dubai's luxury real estate market.
+
+- Delivered Flutter applications for residential design and custom CRM workflows.
+- Implemented modular architecture, responsive UI, REST API integration, Firebase, and Google Maps.
+- Collaborated with UI/UX designers to ship production-ready iOS and Android experiences.
+
+<p>
+  <a href="https://apps.apple.com/us/app/al-roqi/id1589667013">
+    <img src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="Al Roqi on App Store" />
+  </a>
+  <a href="https://play.google.com/store/apps/details?id=com.AlRoqi.tariq_al_raqi">
+    <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Al Roqi on Google Play" />
+  </a>
+</p>
+
+### [EgyptoAI](https://play.google.com/store/apps/details?id=com.anas.egypto_ai)
+
+AI assistant for Egyptians and tourists visiting Egypt, live on Google Play.
+
+- Built the Flutter app with `BLoC`, text and voice chat, media upload, web search, saved chats, and Arabic/English support.
+- Deployed a Node.js backend and Redis on AWS EC2 with Docker Compose.
+- Provisioned AWS infrastructure using Terraform, including VPC, EC2, Elastic IP, IAM, Secrets Manager, and CloudWatch.
+- Replaced SSH-based deployment with AWS Systems Manager and GitHub OIDC for safer CI/CD.
+
+<p>
+  <a href="https://play.google.com/store/apps/details?id=com.anas.egypto_ai">
+    <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="EgyptoAI on Google Play" />
+  </a>
+</p>
+
+### [Typer](https://play.google.com/store/apps/details?id=com.anas.typer)
+
+Fast arcade typing game built around quick rounds, falling words, streaks, and combo-based scoring.
+
+- Built with Flutter as a polished, lightweight game loop with clean neon-style visuals.
+- Designed simple controls and fast feedback so players can jump in, type fast, and chase a higher score.
+- Focused on typing speed, reaction time, and short replayable sessions.
+
+<p>
+  <a href="https://play.google.com/store/apps/details?id=com.anas.typer">
+    <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Typer on Google Play" />
+  </a>
+</p>
 
 ---
 
-### 🧰 Tech Stack
+## Cloud & DevOps Projects
+
+### [Highly Available Web Application on AWS](https://github.com/AnasKhaled1876/cloudnotes-aws-high-availability)
+
+- Designed a highly available AWS environment across two Availability Zones.
+- Used VPC, public/private subnets, EC2, ALB, Auto Scaling Group, S3, IAM, CloudWatch, Route 53, and RDS.
+- Validated routing, scaling, DNS, monitoring, and failure behavior through deployment testing.
+
+### [Terraform AWS Infrastructure](https://github.com/AnasKhaled1876/aws-terraform-infrastructure)
+
+- Recreated production-style AWS infrastructure with reusable Terraform modules.
+- Used variables, outputs, remote state in S3, and separate dev/prod environments.
+- Reduced configuration drift by keeping infrastructure version-controlled and repeatable.
+
+### [ECS Fargate Containerized API](https://github.com/AnasKhaled1876/ecs-fargate-containerized-api)
+
+- Containerized a REST API with Docker and pushed versioned images to Amazon ECR.
+- Deployed to Amazon ECS on AWS Fargate through GitHub Actions.
+- Added CloudWatch runtime logging and Linux Bash scripts for backup, health checks, and log cleanup.
+
+---
+
+## Tech Stack
+
+### Mobile Engineering
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node-dot-js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/BLoC-0A84FF?style=for-the-badge" alt="BLoC" />
+  <img src="https://img.shields.io/badge/Riverpod-40C4FF?style=for-the-badge" alt="Riverpod" />
+  <img src="https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
 </p>
+
+### Backend, Cloud & DevOps
+
+<p align="left">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+</p>
+
+### Tools & Practices
+
+`Clean Architecture` `SOLID` `MVVM` `REST APIs` `Payment Gateways` `Push Notifications` `Deep Linking` `Localization` `Unit Testing` `Widget Testing` `Integration Testing` `Fastlane` `Git` `GitHub` `Xcode` `Android Studio` `Postman` `Jira` `Figma`
 
 ---
 
-### 📈 GitHub Stats
+## Experience Highlights
+
+- Led end-to-end Flutter development from requirements analysis to App Store and Google Play releases.
+- Built release workflows using GitHub Actions and Fastlane to reduce manual deployment work.
+- Integrated Firebase services, REST APIs, payments, push notifications, maps, localization, and deep linking across production apps.
+- Worked with AWS services in production, including Route 53, S3, CloudFront, EC2, IAM, Secrets Manager, and CloudWatch.
+- Built personal cloud portfolio projects covering high availability, Terraform IaC, ECS/Fargate, ECR, Docker, Linux automation, and observability.
+
+---
+
+## Education & Certifications
+
+- B.Sc. in Computer Science - Ain Shams University.
+- AWS Certified Solutions Architect - Associate (SAA-C03), in progress.
+- IBM / Coursera: CI/CD, Containers with Docker/Kubernetes/OpenShift, Microservices & Serverless, Cloud Computing, DevOps.
+- Microsoft / Coursera: Managing Azure Infrastructure - Storage, Monitoring & Backup.
+- Agile Fundamentals: Scrum & Kanban.
+- The Complete Flutter Development Bootcamp with Dart.
+
+---
+
+## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnasKhaled1876&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnasKhaled1876&layout=compact&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AnasKhaled1876&theme=tokyonight" alt="Anas Moustafa GitHub profile summary" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AnasKhaled1876&theme=tokyonight" alt="Repositories per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AnasKhaled1876&theme=tokyonight" alt="Most committed languages" />
 </p>
 
 ---
 
-### 📚 Education & Certifications
-
-- 🎓 B.Sc. in Computer Science – Ain Shams University  
-- ✅ Agile Fundamentals, Flutter Bootcamp, Android Dev with Java
-
----
-
-> *"Great apps are built with clean code, strong UX, and continuous improvement."*
+> Great apps are built with clean architecture, reliable infrastructure, and continuous improvement.
