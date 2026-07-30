@@ -17,15 +17,14 @@
 
 I build production Flutter apps and the AWS infrastructure underneath them.
 Four published apps across Saudi Arabia, the UAE, and Egypt - two on both the
-App Store and Google Play. Clients written in Dart, deployments written in
-Terraform.
+App Store and Google Play. Clients written in Dart, deployments written in Terraform.
 
 ### Selected Work
 
 **Streaming chat, done properly.** egypto's SSE decoder buffers partial frames
 across chunk boundaries, tolerates malformed JSON without dropping the stream,
-emits typed events, and enforces bounded frame and response limits so a runaway
-server cannot exhaust client memory.
+emits sealed event types, and enforces bounded frame and response limits so a runaway
+server can't exhaust client memory - with tests covering each case.
 -> [`chat_sse_decoder.dart`](https://github.com/AnasKhaled1876/egypto_ai/blob/main/lib/features/chat/data/services/chat_sse_decoder.dart)
 
 **Deployment without long-lived keys.** Replaced SSH-and-deploy-key CI with
@@ -57,9 +56,11 @@ Saudi marketplace for premium car plate numbers, published on iOS and Android.
 
 Villa design and customization platform for Dubai's luxury real estate market.
 
-- Built villa-design flows for browsing layouts, customizing finishes, and turning luxury real-estate options into a mobile-first selection experience.
-- Delivered companion CRM workflows so teams could manage client interest and design requests from the same Flutter codebase.
-- Integrated Firebase, REST APIs, responsive UI, and Google Maps for location-aware property discovery.
+- Flutter client for villa design and customization, plus a custom CRM workflow
+  for the sales team.
+- Modular architecture with responsive layouts across phone and tablet, Google Maps
+  integration, and Firebase.
+- Shipped to both the App Store and Google Play for a Dubai luxury real estate client.
 
 <p>
   <a href="https://apps.apple.com/us/app/al-roqi/id1589667013">
