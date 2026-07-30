@@ -16,14 +16,16 @@
 ---
 
 I build production Flutter apps and the AWS infrastructure underneath them.
-Four apps live on the App Store and Google Play across Saudi Arabia, the UAE,
-and Egypt - clients written in Dart, deployments written in Terraform.
+Four published apps across Saudi Arabia, the UAE, and Egypt - two on both the
+App Store and Google Play. Clients written in Dart, deployments written in
+Terraform.
 
 ### Selected Work
 
-**Streaming chat, done properly.** egypto's SSE layer decodes partial UTF-8
-across frame boundaries, tolerates malformed events, emits sealed event types,
-and cancels cleanly on dispose - with tests covering each case.
+**Streaming chat, done properly.** egypto's SSE decoder buffers partial frames
+across chunk boundaries, tolerates malformed JSON without dropping the stream,
+emits typed events, and enforces bounded frame and response limits so a runaway
+server cannot exhaust client memory.
 -> [`chat_sse_decoder.dart`](https://github.com/AnasKhaled1876/egypto_ai/blob/main/lib/features/chat/data/services/chat_sse_decoder.dart)
 
 **Deployment without long-lived keys.** Replaced SSH-and-deploy-key CI with
@@ -55,9 +57,9 @@ Saudi marketplace for premium car plate numbers, published on iOS and Android.
 
 Villa design and customization platform for Dubai's luxury real estate market.
 
-- Delivered Flutter applications for residential design and custom CRM workflows.
-- Implemented modular architecture, responsive UI, REST API integration, Firebase, and Google Maps.
-- Collaborated with UI/UX designers to ship production-ready iOS and Android experiences.
+- Built villa-design flows for browsing layouts, customizing finishes, and turning luxury real-estate options into a mobile-first selection experience.
+- Delivered companion CRM workflows so teams could manage client interest and design requests from the same Flutter codebase.
+- Integrated Firebase, REST APIs, responsive UI, and Google Maps for location-aware property discovery.
 
 <p>
   <a href="https://apps.apple.com/us/app/al-roqi/id1589667013">
@@ -75,7 +77,6 @@ AI assistant for Egyptians and tourists visiting Egypt, live on Google Play.
 - Built the Flutter client with `Riverpod`, streaming SSE chat, voice input, media upload, and Arabic/English support.
 - Runs on a Node.js/Express backend deployed to Vercel, with Redis-backed state and Supabase Postgres.
 - Built a complete alternative EC2 deployment with Terraform, including VPC, IAM, Secrets Manager, and CloudWatch, as an operations exercise.
-- Replaced SSH-based deployment with AWS Systems Manager and GitHub OIDC for safer CI/CD.
 
 <p>
   <a href="https://play.google.com/store/apps/details?id=com.anas.egypto_ai">
