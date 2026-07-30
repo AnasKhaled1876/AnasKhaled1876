@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Anas Moustafa</h1>
-<h3 align="center">Senior Flutter Developer | Mobile Engineer | AWS Cloud & DevOps Practitioner</h3>
+<h3 align="center">Senior Flutter Engineer who ships his own infrastructure</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/anas-moustafa-b36b6a17a/" target="_blank">
@@ -15,12 +15,20 @@
 
 ---
 
-I build production mobile apps with Flutter and ship the cloud infrastructure behind them.
+I build production Flutter apps and the AWS infrastructure underneath them.
+Four apps live on the App Store and Google Play across Saudi Arabia, the UAE,
+and Egypt - clients written in Dart, deployments written in Terraform.
 
-- Currently working as a **Senior Flutter Developer / Software Engineer** at **Madi Al Byanat** in Riyadh, Saudi Arabia.
-- 5+ years building cross-platform iOS and Android apps with **Flutter, Dart, BLoC, Riverpod, Firebase, REST APIs, payments, deep linking, localization, and CI/CD**.
-- Hands-on with **AWS, Terraform, Docker, Linux, GitHub Actions, CloudWatch, Secrets Manager, ECS/Fargate, EC2, S3, CloudFront, Route 53, and VPC networking**.
-- Focused on clean architecture, release automation, app performance, secure deployments, and reliable production workflows.
+### Selected Work
+
+**Streaming chat, done properly.** egypto's SSE layer decodes partial UTF-8
+across frame boundaries, tolerates malformed events, emits sealed event types,
+and cancels cleanly on dispose - with tests covering each case.
+-> [`chat_sse_decoder.dart`](https://github.com/AnasKhaled1876/egypto_ai/blob/main/lib/features/chat/data/services/chat_sse_decoder.dart)
+
+**Deployment without long-lived keys.** Replaced SSH-and-deploy-key CI with
+GitHub OIDC and AWS Systems Manager: port 22 closed, short-lived credentials,
+runtime secrets pulled from Secrets Manager, health-gated releases.
 
 ---
 
@@ -30,9 +38,9 @@ I build production mobile apps with Flutter and ship the cloud infrastructure be
 
 Saudi marketplace for premium car plate numbers, published on iOS and Android.
 
-- Built with `Flutter`, `BLoC`, `Firebase`, `REST APIs`, and `Deep Linking`.
-- Integrated secure payments, push notifications, and critical release flows.
-- Validated key user journeys through unit, widget, and end-to-end testing.
+- Flutter client with BLoC and secure card payments for purchases in KSA.
+- Arabic-first UI with full RTL layout, deep linking, and push notifications.
+- Key purchase journeys covered by unit, widget, and end-to-end tests.
 
 <p>
   <a href="https://apps.apple.com/sa/app/tamayozak-%D8%AA%D9%85%D9%8A%D8%B2%D9%83/id6499983810">
@@ -141,7 +149,7 @@ Fast arcade typing game built with Flutter, clean neon-style visuals, falling-wo
 
 ### Tools & Practices
 
-`Clean Architecture` `SOLID` `MVVM` `REST APIs` `Payment Gateways` `Push Notifications` `Deep Linking` `Localization` `Unit Testing` `Widget Testing` `Integration Testing` `Fastlane` `Git` `GitHub` `Xcode` `Android Studio` `Postman` `Jira` `Figma`
+`Clean Architecture` `SOLID` `REST APIs` `Payment Gateways` `Push Notifications` `Deep Linking` `Localization` `Unit / Widget / Integration Testing` `Fastlane` `Figma`
 
 ---
 
@@ -159,22 +167,7 @@ Fast arcade typing game built with Flutter, clean neon-style visuals, falling-wo
 
 - B.Sc. in Computer Science - Ain Shams University.
 - AWS Certified Solutions Architect - Associate (SAA-C03), in progress.
-- IBM / Coursera: CI/CD, Containers with Docker/Kubernetes/OpenShift, Microservices & Serverless, Cloud Computing, DevOps.
-- Microsoft / Coursera: Managing Azure Infrastructure - Storage, Monitoring & Backup.
+- IBM & Microsoft cloud certifications - CI/CD, containers, and Azure infrastructure.
 - Agile Fundamentals: Scrum & Kanban.
-- The Complete Flutter Development Bootcamp with Dart.
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AnasKhaled1876&theme=tokyonight" alt="Anas Moustafa GitHub profile summary" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AnasKhaled1876&theme=tokyonight" alt="Repositories per language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AnasKhaled1876&theme=tokyonight" alt="Most committed languages" />
-</p>
 
 ---
