@@ -16,7 +16,7 @@
 ---
 
 I build production Flutter apps and the AWS infrastructure underneath them.
-Four published apps across Saudi Arabia, the UAE, and Egypt - two on both the
+Four published apps across Saudi Arabia, the UAE, and Egypt — two on both the
 App Store and Google Play. Clients written in Dart, deployments written in Terraform.
 
 ### Selected Work
@@ -25,7 +25,7 @@ App Store and Google Play. Clients written in Dart, deployments written in Terra
 across chunk boundaries, tolerates malformed JSON without dropping the stream,
 emits sealed event types, and enforces bounded frame and response limits so a runaway
 server can't exhaust client memory - with tests covering each case.
--> [`chat_sse_decoder.dart`](https://github.com/AnasKhaled1876/egypto_ai/blob/main/lib/features/chat/data/services/chat_sse_decoder.dart)
+→ [`chat_sse_decoder.dart`](https://github.com/AnasKhaled1876/egypto_ai/blob/main/lib/features/chat/data/services/chat_sse_decoder.dart)
 
 **Deployment without long-lived keys.** Replaced SSH-and-deploy-key CI with
 GitHub OIDC and AWS Systems Manager: port 22 closed, short-lived credentials,
@@ -88,6 +88,12 @@ AI assistant for Egyptians and tourists visiting Egypt, live on Google Play.
   </a>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnasKhaled1876/egypto_ai/main/assets/readme/home.jpg" width="31%" alt="egypto home screen" />
+  <img src="https://raw.githubusercontent.com/AnasKhaled1876/egypto_ai/main/assets/readme/chat.jpg" width="31%" alt="egypto chat screen" />
+  <img src="https://raw.githubusercontent.com/AnasKhaled1876/egypto_ai/main/assets/readme/voice.jpg" width="31%" alt="egypto voice screen" />
+</p>
+
 ### [Typer](https://play.google.com/store/apps/details?id=com.anas.typer)
 
 Fast arcade typing game built with Flutter, clean neon-style visuals, falling-word gameplay, streaks, combos, and quick replayable rounds.
@@ -124,30 +130,9 @@ Fast arcade typing game built with Flutter, clean neon-style visuals, falling-wo
 
 ## Tech Stack
 
-### Mobile Engineering
+**Mobile:** Flutter, Dart, Riverpod, BLoC, Firebase, Swift, Java
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/BLoC-0A84FF?style=for-the-badge" alt="BLoC" />
-  <img src="https://img.shields.io/badge/Riverpod-40C4FF?style=for-the-badge" alt="Riverpod" />
-  <img src="https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-</p>
-
-### Backend, Cloud & DevOps
-
-<p align="left">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-</p>
+**Infrastructure:** AWS, Terraform, Docker, GitHub Actions, Node.js, PostgreSQL, Redis
 
 ### Tools & Practices
 
