@@ -60,28 +60,27 @@ Villa design and customization platform for Dubai's luxury real estate market.
   </a>
 </p>
 
-### [EgyptoAI](https://play.google.com/store/apps/details?id=com.anas.egypto_ai)
+### [egypto](https://play.google.com/store/apps/details?id=com.anas.egypto_ai)
 
 AI assistant for Egyptians and tourists visiting Egypt, live on Google Play.
 
-- Built the Flutter app with `BLoC`, text and voice chat, media upload, web search, saved chats, and Arabic/English support.
-- Deployed a Node.js backend and Redis on AWS EC2 with Docker Compose.
-- Provisioned AWS infrastructure using Terraform, including VPC, EC2, Elastic IP, IAM, Secrets Manager, and CloudWatch.
+- Built the Flutter client with `Riverpod`, streaming SSE chat, voice input, media upload, and Arabic/English support.
+- Runs on a Node.js/Express backend deployed to Vercel, with Redis-backed state and Supabase Postgres.
+- Built a complete alternative EC2 deployment with Terraform, including VPC, IAM, Secrets Manager, and CloudWatch, as an operations exercise.
 - Replaced SSH-based deployment with AWS Systems Manager and GitHub OIDC for safer CI/CD.
 
 <p>
   <a href="https://play.google.com/store/apps/details?id=com.anas.egypto_ai">
-    <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="EgyptoAI on Google Play" />
+    <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="egypto on Google Play" />
+  </a>
+  <a href="https://github.com/AnasKhaled1876/egypto_ai">
+    <img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" alt="egypto source code on GitHub" />
   </a>
 </p>
 
 ### [Typer](https://play.google.com/store/apps/details?id=com.anas.typer)
 
-Fast arcade typing game built around quick rounds, falling words, streaks, and combo-based scoring.
-
-- Built with Flutter as a polished, lightweight game loop with clean neon-style visuals.
-- Designed simple controls and fast feedback so players can jump in, type fast, and chase a higher score.
-- Focused on typing speed, reaction time, and short replayable sessions.
+Fast arcade typing game built with Flutter, clean neon-style visuals, falling-word gameplay, streaks, combos, and quick replayable rounds.
 
 <p>
   <a href="https://play.google.com/store/apps/details?id=com.anas.typer">
@@ -179,5 +178,3 @@ Fast arcade typing game built around quick rounds, falling words, streaks, and c
 </p>
 
 ---
-
-> Great apps are built with clean architecture, reliable infrastructure, and continuous improvement.
