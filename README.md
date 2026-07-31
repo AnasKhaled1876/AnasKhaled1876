@@ -24,7 +24,7 @@ two open source. Clients written in Dart, deployments written in Terraform.
 **Streaming chat, done properly.** egypto's SSE decoder buffers partial frames
 across chunk boundaries, tolerates malformed JSON without dropping the stream,
 emits sealed event types, and enforces bounded frame and response limits so a runaway
-server can't exhaust client memory - with tests covering each case.
+server can't exhaust client memory — with tests covering each case.
 → [`chat_sse_decoder.dart`](https://github.com/AnasKhaled1876/egypto_ai/blob/main/lib/features/chat/data/services/chat_sse_decoder.dart)
 
 **Deployment without long-lived keys.** Replaced SSH-and-deploy-key CI with
@@ -113,6 +113,12 @@ combos, climb category levels. English and Egyptian Arabic from one codebase.
   <a href="https://github.com/AnasKhaled1876/typer">
     <img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" alt="Typer source code on GitHub" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnasKhaled1876/typer/main/assets/readme/hub.webp" width="31%" alt="Typer arcade hub" />
+  <img src="https://raw.githubusercontent.com/AnasKhaled1876/typer/main/assets/readme/gameplay.webp" width="31%" alt="Typer gameplay — typing falling words" />
+  <img src="https://raw.githubusercontent.com/AnasKhaled1876/typer/main/assets/readme/shop.webp" width="31%" alt="Typer powerup shop" />
 </p>
 
 ---
