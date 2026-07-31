@@ -118,7 +118,7 @@ combos, climb category levels. English and Egyptian Arabic from one codebase.
 <p align="center">
   <img src="https://raw.githubusercontent.com/AnasKhaled1876/typer/main/assets/readme/hub.webp" width="31%" alt="Typer arcade hub" />
   <img src="https://raw.githubusercontent.com/AnasKhaled1876/typer/main/assets/readme/gameplay.webp" width="31%" alt="Typer gameplay — typing falling words" />
-  <img src="https://raw.githubusercontent.com/AnasKhaled1876/typer/main/assets/readme/shop.webp" width="31%" alt="Typer powerup shop" />
+  <img src="https://raw.githubusercontent.com/AnasKhaled1876/typer/main/assets/readme/store.webp" width="31%" alt="Typer powerup shop" />
 </p>
 
 ---
