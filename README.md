@@ -16,8 +16,8 @@
 ---
 
 I build production Flutter apps and the AWS infrastructure underneath them.
-Four published apps across Saudi Arabia, the UAE, and Egypt — two on both the
-App Store and Google Play. Clients written in Dart, deployments written in Terraform.
+Four published apps across Saudi Arabia, the UAE, and Egypt — two on both stores,
+two open source. Clients written in Dart, deployments written in Terraform.
 
 ### Selected Work
 
@@ -96,11 +96,22 @@ AI assistant for Egyptians and tourists visiting Egypt, live on Google Play.
 
 ### [Typer](https://play.google.com/store/apps/details?id=com.anas.typer)
 
-Fast arcade typing game built with Flutter, clean neon-style visuals, falling-word gameplay, streaks, combos, and quick replayable rounds.
+Arcade typing game built with Flutter and Flame — type falling words, chain
+combos, climb category levels. English and Egyptian Arabic from one codebase.
+
+- Game loop decouples the 60 fps Flame simulation from Flutter rebuilds via a
+  throttled snapshot — UI redraws at ~120 ms cadence, not per frame.
+- Typing speed is benchmarked against a published academic dataset
+  (37k-participant mobile typing study), not an invented rank.
+- Zero analyzer diagnostics, 193 tests, CI-gated. Ads, IAP, and Play Games
+  leaderboards integrated.
 
 <p>
   <a href="https://play.google.com/store/apps/details?id=com.anas.typer">
-    <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Typer on Google Play" />
+    <img src="https://img.shields.io/badge/Google_Play-Download-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Typer on Google Play" />
+  </a>
+  <a href="https://github.com/AnasKhaled1876/typer">
+    <img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" alt="Typer source code on GitHub" />
   </a>
 </p>
 
