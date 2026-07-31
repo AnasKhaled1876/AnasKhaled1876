@@ -58,25 +58,6 @@ Saudi marketplace for premium car plate numbers, published on iOS and Android.
   <img src="assets/tamayozak/details.webp" width="31%" alt="Tamayozak — plate details and purchase" />
 </p>
 
-### [Al Roqi](https://apps.apple.com/us/app/al-roqi/id1589667013)
-
-Villa design and customization platform for Dubai's luxury real estate market.
-
-- Flutter client for villa design and customization, plus a custom CRM workflow
-  for the sales team.
-- Modular architecture with responsive layouts across phone and tablet, Google Maps
-  integration, and Firebase.
-- Shipped to both the App Store and Google Play for a Dubai luxury real estate client.
-
-<p>
-  <a href="https://apps.apple.com/us/app/al-roqi/id1589667013">
-    <img src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="Al Roqi on App Store" />
-  </a>
-  <a href="https://play.google.com/store/apps/details?id=com.AlRoqi.tariq_al_raqi">
-    <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Al Roqi on Google Play" />
-  </a>
-</p>
-
 ### [egypto](https://play.google.com/store/apps/details?id=com.anas.egypto_ai)
 
 AI assistant for Egyptians and tourists visiting Egypt, live on Google Play.
